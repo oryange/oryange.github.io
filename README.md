@@ -1,1 +1,1 @@
-Este projeto visa disponibilizar o projeto de portfólio realizado na Trybe.
+Neste portfólio consta um compilado de materiais originais que exemplificam minhas habilidades, qualificações, treinamentos e experiências - bem como fornece uma visão sobre a minha personalidade e ética do meu trabalho como desenvolvedora web.
