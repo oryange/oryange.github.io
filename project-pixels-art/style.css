@@ -19,6 +19,15 @@
   width: 50px;
   border-style: solid;
   border-width: 1px;
+  border-radius: 0;
+  transition: border-radius 0.5s;
+}
+.color:hover {
+  border-radius: 50%;
+  transition: border-radius 0.5s;
+}
+.color.selected {
+  border-radius: 50%;
 }
 
 #black{
