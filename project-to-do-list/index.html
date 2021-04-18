@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <title>Lista de Tarefas | Oryange</title>
+</head>
+<body>
+  <header>    
+    <h1>Minha Lista de Tarefas</h1>
+    <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+  </header>
+  <div class="style-div">
+    <label>
+      <input type="text" value="" id="texto-tarefa">
+      <button type="button" id="criar-tarefa" class="buttons">Adicionar</button>
+    </label>
+  </div>
+  <section id="section-1">
+    <div class="style-div">
+      <ol id="lista-tarefas"></ol>
+    </div>
+    <div>
+      <button id="apaga-tudo" class="buttons">Limpar Lista </button>
+      <button id="remover-finalizados" class="buttons">Remover Finalizados </button>
+      <button id="salvar-tarefas" class="buttons">Salvar Tarefas </button>
+      <button id="mover-cima" class="buttons">Mover para cima </button>
+      <button id="mover-baixo" class="buttons">Mover para baixo </button>
+      <button id="remover-selecionado" class="buttons">Remover Selecionado </button>
+    </div>
+  </section>
+  <footer>
+    <h3>Made by Oryange Strifezze Ⓒ</h3>
+  </footer> 
+<script src="script.js"></script>  
+</body>
+</html>

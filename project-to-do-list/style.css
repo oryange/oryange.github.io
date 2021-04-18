@@ -1,0 +1,107 @@
+body{
+  margin: 0;
+  text-align: center;
+  background-color: #EAF2D7;
+}
+
+h1{
+  margin: 0;
+  padding: 10px;
+  background-color: #CA075B;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+p{
+  margin-top: 0;
+  padding: 10px;
+  background-color:#FFD8E3;
+  color: #CA075B;
+  font-size: 20px; 
+}
+footer{
+  margin-top: 100px;
+  padding: 10px;
+  background-color:#CA075B;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.style-div{
+  width: 80%;
+  padding: 10px;
+  margin: 0px auto 10px auto;
+  border-radius: 1em;
+  border-style: outset;
+  background-color: white;
+  color: #CA075B;
+  font-size: 20px;
+}
+#texto-tarefa{
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  border-color:#b3dee2;
+}
+#criar-tarefa{
+background-color:#03989E;
+border-color: #03989E;
+color: white;
+font-family: 'Roboto', sans-serif;
+font-weight: 800;
+font-size: 16px;
+}
+
+#criar-tarefa:hover{
+    transform: scale(1.1);
+    transition:0.5s;
+    background-color: #FED576;
+  }
+  
+.list-item{
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;  
+}
+.select{
+  background-color: rgb(128, 128, 128);
+  color: white;
+}
+.select::marker{
+  color: #CA075B;
+}
+
+.completed{
+  text-decoration: line-through;
+  color: rgb(0, 0, 0); 
+}
+
+.buttons{
+  padding: 10px;
+  margin: 10px;
+  overflow: hidden;
+  background-color:#B3DEE2;
+  color: #545454;
+  border-radius: 15px;
+  border-style: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.buttons:hover{
+	transform: scale(1.1);
+  transition:0.5s;
+  background-color: #FED576;
+}
+#apaga-tudo{
+  background-color: #FFAA17;
+  border-radius: #FFAA17;
+}
+#apaga-tudo:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  background-color: #FED576;
+}
