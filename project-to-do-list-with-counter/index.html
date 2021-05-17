@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+  <title>Workout log | Oryange</title>
+</head>
+<body>
+  <header>    
+    <h1 class="title is-2 mb-0 p-3 has-text-white" >Workout log</h1>
+    <p id="funcionamento" class="p-2">Double click to mark item for complete</p>
+  </header>
+
+  <section class="box">
+    <div class="content mb-5">
+      <div class="style-div">
+        <input type="text" value="" placeholder="Write your tasks here." id="task-input" class="mr-2" >
+        <input type="number" value="" min="0" max="24" placeholder="hour"  id="hour-input" class="mr-2">
+        <button type="button" id="create-task" class="button is-primary is-rounded p-2">Add item</button>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="style-div" class="container">
+        <ol id="task-list"></ol>
+      </div>
+    </div>
+
+    <div class="container-counter" >
+      <p class="background-white">Total hours of pending tasks:</p>
+      <span id="counter"></span>
+    </div>
+    
+    <hr>
+    
+    <div class="buttons">
+      <button id="move-up" class="button is-success">Move Up </button>
+      <button id="move-down" class="button is-success">Move Down </button>
+      <button id="remove-completed" class="button is-success">Remove Finish </button>
+      <button id="remove-selected" class="button is-success">Remove Selected </button>
+      <button id="clear-all" class="button is-danger">Clear List </button>
+      <button id="save-all" class="button is-danger">Save Log </button>
+    </div>
+    
+  </section>
+  <footer class="footer px-0">
+    <div class="content has-text-centered">
+      <p class="p-5 m-0">
+        Made by Oryange Strifezze Ⓒ
+      </p>
+    </div>
+  </footer>
+<script src="script.js"></script>  
+</body>
+</html>

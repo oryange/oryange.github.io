@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  background-color:#008031;
+}
+
+p {
+  margin-top: 0;
+  padding: 10px;
+  background-color:#addd66;
+  color: #008031;
+  font-size: 20px; 
+}
+
+.background-white {
+  background-color: white;
+}
+
+span {
+  font-size: 20px;
+}
+
+.style-div {
+  width: 80%;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 1em;
+  border-style: outset;
+  background-color: white;
+  color: #008031;
+  font-size: 20px;  
+}
+
+#texto-tarefa {
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  border-color:#b3dee2;
+}
+
+#texto-hora {
+  height: 30px;
+  width: 50px;
+  border-radius: 5px;
+  border-color:#b3dee2;
+}
+
+#criar-tarefa {
+  background-color:#7cc800;
+  border-color: #7cc800;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+#criar-tarefa:hover {
+  transform: scale(1.1);
+  transition:0.5s;
+  background-color: #FED576;
+}
+
+.list-item {
+  text-align: left;
+  font-size: 18px;  
+}
+
+.selected {
+  text-align: left;
+  background-color: #008031;
+  color: white;
+}
+.selected::marker {
+  color: #008031;
+}
+
+.completed {
+  text-decoration: line-through;
+  color:orange;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition:0.5s;
+  background-color: #7cc800;
+}
+
+.container-counter {
+  width: 300px;
+  padding: 10px;
+  margin: 0px auto 10px auto;
+  border-radius: 1em;
+  border-style: outset;
+  background-color: white;
+  color: #008031;
+  font-size: 14px; 
+}

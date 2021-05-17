@@ -4,50 +4,7 @@
   box-sizing: border-box;
 }
 
-header {
-	background-color: black;
-	color: white;
-	display: flex;
-	align-items: center;
-	padding: 20px;
+#picture {
+  width: 100px;
+  height: 100px;
 }
-
-header nav {
-	
-}
-.circled {
-	margin-top: 10px;
-	border-radius: 100%;
-	width: 200px;
-}
-
-.section-conteiner-1 {
-	background-color: red;
-}
-
-.divColor1 {
-	background-color:#3B5F6D;
-	color: white;
-	border-radius: 15px 50px;
-	padding: 10px;
-}
-.divColor2 {
-	background-color: #5E5E5E;
-	color: white;
-	border-radius: 15px 50px;
-	padding: 10px;
-}
-.divColor3{
-	background-color: #CA075B;
-	color: white;
-	border-radius: 15px 50px;
-	padding: 10px;
-}
-
-
-footer {
-		background-color:#3B5F6D;
-		color: white;
-
-}
-
