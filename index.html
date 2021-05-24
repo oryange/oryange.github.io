@@ -5,30 +5,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="style.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;600;700&family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
 	<title> Oryange Strifezze | Desenvolvedora Web </title>
 </head>
 <body>
 
 <header>
 	<nav>
-		<a href="">Home</a>
-		<a href="sobre">Sobre</a>
-		<a href="">Skills</a>
-		<a href="">Contato</a>
+		<a href="/">Home</a>
+		<a href="#sobre">Sobre</a>
+		<a href="#skills">Skills</a>
+		<a href="#contato">Contato</a>
 	</nav>
 </header>
 
 <!--HERO-->
 <section class="hero">
-	<h1> <strong>Oryange Strifezze</strong><br> Desenvolvedora Web</h1>
-	<a href="sobre">SAIBA MAIS</a>
+	<div class="hero-text">
+			<h1> <strong>ORYANGE STRIFEZZE</strong><br> </h1>
+			<p> Desenvolvedora Web <br>Apaixonada por códigos e novos desafios.</p>
+	</div>
+	<a href="#sobre">SAIBA MAIS</a>
 </section>
 
-
 <section class="conteiner-1">
-	<div class="item-conteiner">
-		<h2> HARD SKILLS </h2>
+	<article id="sobre">
+		<h1>Olá, eu sou a Oryange!</h1>	
+		<p >Tenho 29 anos e sou natural de Florianópolis, Santa Catarina e crescida em Porto Alegre, no Rio Grande do Sul. Atualmente resido em <strong> São Paulo </strong>!<br> 
+			Sou estudante de <stron>Desenvolvimento Web</stron>na Trybe - instituição que proporciona aprendizado ativo na área Tecnologia. Minha formação primária é em Química, onde pude atuar em grandes Indústrias como Petrobrás e Natura - o que me proporcionou um excelente desenvolvimento de Soft Skills.</p>
+		</article>
+		<img id='picture'src="images/oryange.jpeg" alt="Foto da Oryange Dafny Strifezze">
+</section>
+
+<section class="conteiner-2" id="skills">
+	<h2> HARD SKILLS </h2>
 		<ul>
 			<li> • Metodologias Ágeis;</li>
 			<li> • Unix e Bash;</li>
@@ -38,48 +49,35 @@
 			<li> • JavaScript ES6 e Testes Unitários;	</li>
 			<li> • Requisições API (Application Programming Interface).</li>
 		</ul>
-	</div>
-	<div class="item-conteiner">
-		<h2>SOFT SKILSS </h2>
+</section>
+<section class="conteiner-3">
+	<h2>SOFT SKILSS </h2>
 		<ul>
-	 		<li> • Comunicação e senso de urgência; 
-	 		<li> • Gestão de tempo e prioridade;</li>	
-	 		<li> • Escuta ativa e espírito de servir;</li>
-	 		<li> • Aprender a aprender;</li>
-	 		<li> • Senso de coletivo;</li>
-	 		<li> • Estudiosa incansável.</li>
+			<li> • Comunicação e senso de urgência; 
+			<li> • Gestão de tempo e prioridade;</li>	
+			<li> • Escuta ativa e espírito de servir;</li>
+			<li> • Aprender a aprender;</li>
+			<li> • Senso de coletivo;</li>
+			<li> • Estudiosa incansável.</li>
 		</ul>
-	</div>
-	<div class="item-conteiner"> 
+</section>
+<section class="conteiner-4">
 		<h2>Projetos</h2>
 		<div class="project" id="portfólio">
 			<a href="project-pixels-art" target="_blank"> Project Art Pixels - JavaScript ES6 </a>
-			<a href="project-to-do-list" target="_blank"> Pixels Art - JavaScript ES6 </a>
-			<a href="project-workout-log" target="_blank">To Do List - JavaScript ES6</a>
-			<a href="project-to-do-list/" target="_blank">To Do List - JavaScript ES6</a>
+			<a href="project-to-do-list" target="_blank"> To Do LIst - JavaScript ES6 </a>
+			<a href="project-to-do-list-with-counter/" target="_blank">Workout Log - JavaScript ES6</a>
 			<a href="project-shopping-cart" target="_blank">Project Shopping Cart - API Mercado Livre</a>
-		</div>
-	</div>
-
-</section>
-
-<section class="conteiner-2">
-	<a><img id='picture'src="images/foto.jpg" alt="Foto da Oryange Dafny Strifezze"></a>
-	<article id="sobre">
-		<h1>Olá, eu sou a Oryange!</h1>	
-		<p >Tenho 29 anos e sou natural de Florianópolis, Santa Catarina e crescida em Porto Alegre, no Rio Grande do Sul. Atualmente resido em <strong> São Paulo </strong>!<br> 
-		Sou estudante de <stron>Desenvolvimento Web</stron>na Trybe - instituição que proporciona aprendizado ativo na área Tecnologia. Minha formação primária é em Química, onde pude atuar em grandes Indústrias como Petrobrás e Natura - o que me proporcionou um excelente desenvolvimento de Soft Skills.</p>
-	</article>
 </section>
 
 <footer>
 	<h2> Me Encontre Aqui! </h2>
 	<nav>
-		<a  href="https://api.whatsapp.com/send?phone=5511943723194&text=Ol%C3%A1%2C%20vi%20seu%20portf%C3%B3lio%20no%20GitHub!" target="_blank">Contato</a>
+		<a id="contato" href="https://api.whatsapp.com/send?phone=5511943723194&text=Ol%C3%A1%2C%20vi%20seu%20portf%C3%B3lio%20no%20GitHub!" target="_blank">Contato</a>
 		<a  href="https://www.linkedin.com/in/oryangestrifezze/" target="_blank">Linkedin</a>
-		<a  href="portfólio">Projetos</a>
+		<a  href="#portfólio">Projetos</a>
 	</nav>
-	<h3> © All Rights Reserved | Oryange Strifezze</h3>
+	<h3> © All Rights Reserved | oryanges@live.com | Oryange Strifezze</h3>
 </footer>
 
 </body>
