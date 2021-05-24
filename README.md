@@ -8,4 +8,5 @@ Neste portfólio consta um compilado de materiais originais que exemplificam min
 
 - [x] Phone: (11)94372-3194
 - [x] Linkedin: https://www.linkedin.com/in/oryangestrifezze/
+- [x] Link direto: https://oryange.github.io/
 
